@@ -2122,13 +2122,13 @@ Camera:
     serializedVersion: 2
     x: 0.436
     y: 0.375
-    width: 0.13
-    height: 0.25
+    width: 0.102
+    height: 0.22
   near clip plane: 0.3
   far clip plane: 31.7
   field of view: 60
   orthographic: 1
-  orthographic size: 18.021461
+  orthographic size: 13.316975
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
