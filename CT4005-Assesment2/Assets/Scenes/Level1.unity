@@ -939,8 +939,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5ad96dae3938f4b9fb3c3ba02dec35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  score: 0
 --- !u!1001 &402159289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2920,8 +2918,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5ad96dae3938f4b9fb3c3ba02dec35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 817405895}
-  score: 0
 --- !u!1001 &1195826457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3413,7 +3409,7 @@ RectTransform:
   m_GameObject: {fileID: 1472945645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.03798935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 833734278}
   m_RootOrder: 1
@@ -3421,7 +3417,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -248, y: -114}
-  m_SizeDelta: {x: 990, y: 454}
+  m_SizeDelta: {x: 495, y: 229}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1472945647
 MonoBehaviour:
@@ -3903,8 +3899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5ad96dae3938f4b9fb3c3ba02dec35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  score: 0
 --- !u!4 &1743929048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2035677207627564062, guid: ec11a74d422c23b4cba19e6ebf5c7387,
@@ -4458,8 +4452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5ad96dae3938f4b9fb3c3ba02dec35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  score: 0
 --- !u!143 &2121208593663627548
 CharacterController:
   m_ObjectHideFlags: 0
