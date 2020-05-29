@@ -53,11 +53,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9546}
     - Class: 114
-      Script: {instanceID: 9878}
+      Script: {instanceID: 9746}
     - Class: 114
-      Script: {instanceID: 10434}
+      Script: {instanceID: 9880}
     - Class: 114
-      Script: {instanceID: 14444}
+      Script: {instanceID: 10436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -120,7 +120,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9544}
     - Class: 114
-      Script: {instanceID: 15764}
+      Script: {instanceID: 10740}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -608,6 +608,12 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OptionsScript
+  - hash:
+      serializedVersion: 2
       Hash: 00274a21279f5cb831ce20f895049e38
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -920,6 +926,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: 7fb33bf5681fd9d4a816950cf7f7ea67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenuScripts
+  - hash:
+      serializedVersion: 2
       Hash: 5d58e2c6538e97bb37bbc552307c320c
     assemblyName: Assembly-CSharp.dll
     namespaceName: ProBuilder2.Examples
@@ -936,20 +948,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OptionsScript
-  - hash:
-      serializedVersion: 2
-      Hash: 7fb33bf5681fd9d4a816950cf7f7ea67
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PauseMenuScripts
   platform: 19
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
   - Assets/Scenes/TestScene.unity
-  playerPath: C:/Users/cythr/Desktop/Untitled Maze Game Builds/5/CT4005-Assesment2.exe
+  playerPath: C:/Users/cythr/Desktop/Untitled Maze Game Builds/7/CT4005-Assesment2.exe
