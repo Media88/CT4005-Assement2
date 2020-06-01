@@ -4,32 +4,24 @@ using UnityEngine;
 
 public class CoinSpawner : MonoBehaviour
 {
-	[SerializeField]
-	public GameObject Coin;
 
-	public int PlaceX;
-	public int PlaceZ;
-	public int coinCount;
+    public GameObject coin;
+    public bool stopSpawining = false;
+    public float spawnTime;
+    public float spawnDelay;
 
-	public void Start()
-	{
-		coinCount = GameObject.FindGameObjectsWithTag("Coin").Length;
-	}
+    // Start is called before the first frame update
+    void Start()
+    {
+        InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
+    }
 
-	private void Update()
-	{
-		if(coinCount < 10)
-		{
-			Spawn();
-			return;
+    public void SpawnObject()
+    {
+        Instantiate(coin, transform.position, transform.rotation);
+        if(stopSpawining)
+        {
+            CancelInvoke("SpawnObject");
 		}
 	}
-
-	private void Spawn()
-	{
-		PlaceX = Random.Range(-7, 18);
-		PlaceZ = Random.Range(13,-12);
-		Instantiate(Coin,new Vector3 (PlaceX, -0.48f, PlaceZ), transform.rotation);
-	}
-
 }
