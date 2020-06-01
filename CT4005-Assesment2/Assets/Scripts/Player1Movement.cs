@@ -27,13 +27,40 @@ public class Player1Movement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-        if(x != 0 || z != 0)
+        if(x < 0 )
         {
-            anim.SetBool("isRunning", true);
+            anim.SetBool("isBack", true);
         }
         else
         {
-            anim.SetBool("isRunning", false);
+            anim.SetBool("isBack", false);
+        }
+
+        if (x > 0)
+        {
+            anim.SetBool("isForward", true);
+        }
+        else
+        {
+            anim.SetBool("isForward", false);
+        }
+
+        if (z > 0)
+        {
+            anim.SetBool("isDown", true);
+        }
+        else
+        {
+            anim.SetBool("isDown", false);
+        }
+
+        if (z < 0)
+        {
+            anim.SetBool("isUp", true);
+        }
+        else
+        {
+            anim.SetBool("isUp", false);
         }
     }
 }
