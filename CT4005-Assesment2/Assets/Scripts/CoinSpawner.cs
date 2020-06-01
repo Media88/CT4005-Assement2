@@ -13,7 +13,7 @@ public class CoinSpawner : MonoBehaviour
 
 	private void Start()
 	{
-		InvokeRepeating("Spawn", 2f, 3f);
+		InvokeRepeating("Update", 2f, 3f);
 		return;
 	}
 
@@ -21,19 +21,13 @@ public class CoinSpawner : MonoBehaviour
 	{
 		if(GameObject.FindGameObjectsWithTag("Coin").Length < 10)
 		{
-			Spawn();
-		}
-	}
-
-	private void Spawn()
-	{
-		if (Coin != null)
-		{
+			if (Coin != null)
+			{
 			PlaceX = Random.Range(-7, 18);
 			PlaceZ = Random.Range(13,-12);
 			Instantiate(Coin,new Vector3 (PlaceX, -0.48f, PlaceZ), transform.rotation);
-			Coin = null;
-			return;
+			return;			
+			}
 		}
 	}
 }
