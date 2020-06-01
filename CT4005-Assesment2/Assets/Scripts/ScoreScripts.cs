@@ -13,6 +13,7 @@ public class ScoreScripts : MonoBehaviour
     public int scoreP3;
     public int scoreP4;
 
+
 	public void P1Collision()
 	{
 		scoreP1++;
