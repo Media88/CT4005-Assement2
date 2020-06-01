@@ -9,19 +9,13 @@ public class CoinSpawner : MonoBehaviour
 
 	public int PlaceX;
 	public int PlaceZ;
-	public int coinCount;
 
-	public void Start()
-	{
-		coinCount = GameObject.FindGameObjectsWithTag("Coin").Length;
-	}
 
 	private void Update()
 	{
-		if(coinCount < 10)
+		if(GameObject.FindGameObjectsWithTag("Coin").Length < 10)
 		{
 			Spawn();
-			return;
 		}
 	}
 
