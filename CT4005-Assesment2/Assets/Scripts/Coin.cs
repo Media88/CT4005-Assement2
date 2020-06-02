@@ -7,8 +7,6 @@ public class Coin : MonoBehaviour
 {
     [SerializeField]
     float CoinRotateSpeed = 0.5f;
-    [SerializeField]
-    float CoinValue = 1f;
 
     public ScoreScripts scoreScripts;
 
@@ -30,7 +28,7 @@ public class Coin : MonoBehaviour
        if(other.gameObject.CompareTag ("Player1"))
        {
             scoreScripts.P1Collision();
-	    }
+	   }
        if(other.gameObject.CompareTag ("Player2"))
        {
             scoreScripts.P2Collision();
@@ -51,7 +49,6 @@ public class Coin : MonoBehaviour
         if (scoreP2 > scoreGoal)
         {
             endMenu.SetActive(true);
-
         }
         if (scoreP3 > scoreGoal)
         {

@@ -105,5 +105,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CoinRotateSpeed: 0.5
-  CoinValue: 1
   scoreScripts: {fileID: 0}
+  endMenu: {fileID: 0}
+  scoreP1: 0
+  scoreP2: 0
+  scoreP3: 0
+  scoreP4: 0
+  scoreGoal: 5
