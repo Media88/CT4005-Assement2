@@ -24,7 +24,7 @@ public class PauseMenuScripts : MonoBehaviour
     }
     public void Continue ()
     {
-        PauseMenu.SetActive(false);
+        PauseMenu.gameObject.SetActive(false);
         Time.timeScale = 1f;
         PausedGame = false;
         Cursor.lockState = CursorLockMode.None;
@@ -32,7 +32,7 @@ public class PauseMenuScripts : MonoBehaviour
     }
     void Pause ()
     {
-        PauseMenu.SetActive(true);
+        PauseMenu.gameObject.SetActive(true);
         Time.timeScale = 0f;
         PausedGame = true;
         Cursor.lockState = CursorLockMode.None;
@@ -47,5 +47,6 @@ public class PauseMenuScripts : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        Debug.Log("User has quit the game");
     }
 }

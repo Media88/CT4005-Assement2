@@ -42,23 +42,6 @@ public class Coin : MonoBehaviour
             scoreScripts.P4Collision();
        }
 
-        if (scoreP1 > scoreGoal)
-        {
-            endMenu.SetActive(true);
-        }
-        if (scoreP2 > scoreGoal)
-        {
-            endMenu.SetActive(true);
-        }
-        if (scoreP3 > scoreGoal)
-        {
-            endMenu.SetActive(true);
-
-        }
-        if (scoreP4 > scoreGoal)
-        {
-            endMenu.SetActive(true);
-
-        }
+        
     }
 }

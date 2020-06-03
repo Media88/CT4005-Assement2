@@ -189,6 +189,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c43abb34ab989c84bb5b1fc106c57cf1, type: 3}
+--- !u!1 &154108026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2004584044}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 154108027}
+  m_Layer: 0
+  m_Name: character@Jogging With Box (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &154108027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2004584044}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154108026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2004584045}
+  m_Father: {fileID: 429131657}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &173639655
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,7 +599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &378735051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,6 +614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   controller: {fileID: 378735052}
+  anim: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5, type: 3}
   controllerPrefix: P3
 --- !u!143 &378735052
 CharacterController:
@@ -1026,7 +1058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &429131654
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1097,7 +1129,7 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children:
   - {fileID: 521439820}
-  - {fileID: 2035777291}
+  - {fileID: 154108027}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1115,6 +1147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   controller: {fileID: 429131659}
+  anim: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5, type: 3}
   controllerPrefix: P1
 --- !u!143 &429131659
 CharacterController:
@@ -1317,7 +1350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &736432637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2145,6 +2178,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &1388261249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2004584044}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2004584045}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1714176581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,7 +2214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1714176582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2180,6 +2229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   controller: {fileID: 1714176583}
+  anim: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5, type: 3}
   controllerPrefix: P4
 --- !u!143 &1714176583
 CharacterController:
@@ -2640,12 +2690,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97dd52e744b27ce4aa75c45a3d229c05, type: 3}
---- !u!4 &2035777291 stripped
+--- !u!4 &2004584045
 Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 97dd52e744b27ce4aa75c45a3d229c05,
-    type: 3}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 2004584044}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388261249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 154108027}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2121208593554545883
 Transform:
   m_ObjectHideFlags: 0
@@ -2790,7 +2848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!143 &2121208593663627548
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2823,6 +2881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   controller: {fileID: 2121208593663627548}
+  anim: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5, type: 3}
   controllerPrefix: P2
 --- !u!4 &2121208593663627550
 Transform:

@@ -7,11 +7,14 @@ public class ScoreScripts : MonoBehaviour
     public GameObject scoreTextP2;
     public GameObject scoreTextP3;
     public GameObject scoreTextP4;
+
+    public GameObject endMenu;
     
     public int scoreP1;
     public int scoreP2;
     public int scoreP3;
     public int scoreP4;
+    public int scoreTotal = 5;
 
 
 	public void P1Collision()
@@ -19,6 +22,11 @@ public class ScoreScripts : MonoBehaviour
 		scoreP1++;
         scoreTextP1.GetComponent<Text>().text = "Score: " + scoreP1;
         Destroy(GameObject.FindWithTag("Coin"));
+        if(scoreP1 > scoreTotal)
+        {
+            Debug.Log("end game triggered");
+            endMenu.gameObject.SetActive(true);
+        }
 	}
 
 	public void P2Collision()
@@ -33,6 +41,7 @@ public class ScoreScripts : MonoBehaviour
 		scoreP3++;
         scoreTextP3.GetComponent<Text>().text = "Score: " + scoreP3;
         Destroy(GameObject.FindWithTag("Coin"));
+
 	}
 
 	public void P4Collision()

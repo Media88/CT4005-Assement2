@@ -10,7 +10,7 @@ public class Player1Movement : MonoBehaviour
     public Animator anim;
 
     [SerializeField]
-    private string controllerPrefix = "";
+    private string controllerPrefix;
 
     void Start()
     {

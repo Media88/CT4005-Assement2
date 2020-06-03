@@ -19,7 +19,7 @@ public class CoinSpawner : MonoBehaviour
 
 	private void Update()
 	{
-		if(GameObject.FindGameObjectsWithTag("Coin").Length < 10)
+		if(GameObject.FindGameObjectsWithTag("Coin").Length < 15)
 		{
 			if (Coin != null)
 			{
