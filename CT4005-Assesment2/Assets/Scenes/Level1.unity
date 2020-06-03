@@ -3275,6 +3275,11 @@ PrefabInstance:
       propertyPath: endMenu
       value: 
       objectReference: {fileID: 1015059904}
+    - target: {fileID: 1603836702551039893, guid: 1b903ffcc9eca264babe6c8b67fb2f45,
+        type: 3}
+      propertyPath: coin
+      value: 
+      objectReference: {fileID: 1869993693}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b903ffcc9eca264babe6c8b67fb2f45, type: 3}
 --- !u!95 &1105155132 stripped
