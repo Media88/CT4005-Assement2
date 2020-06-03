@@ -3160,12 +3160,10 @@ MonoBehaviour:
   scoreTextP2: {fileID: 2121208594533174548}
   scoreTextP3: {fileID: 1882456970}
   scoreTextP4: {fileID: 906780512}
-  endMenu: {fileID: 1686690581}
   scoreP1: 0
   scoreP2: 0
   scoreP3: 0
   scoreP4: 0
-  scoreTotal: 5
 --- !u!1001 &963242061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4007,6 +4005,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endScreen: {fileID: 1686690581}
   pauseScreen: {fileID: 1368467615}
+  scoreScripts: {fileID: 957480666}
+  scoreP1: 0
+  scoreP2: 0
+  scoreP3: 0
+  scoreP4: 0
+  scoreGoal: 5
 --- !u!1001 &1231454524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4259,7 +4263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1368467616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5159,7 +5163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1686690582
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5511,11 +5515,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lowry@IdleP1
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 52a3cc051042e1a498f4fca99b3e1a75, type: 2}
     - target: {fileID: -4216859302048453862, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5586,6 +5585,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 52a3cc051042e1a498f4fca99b3e1a75, type: 2}
     - target: {fileID: 1651062367082650294, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5759,11 +5763,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lowry@IdleP3
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 52a3cc051042e1a498f4fca99b3e1a75, type: 2}
     - target: {fileID: -4216859302048453862, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5834,6 +5833,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 52a3cc051042e1a498f4fca99b3e1a75, type: 2}
     - target: {fileID: 1651062367082650294, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5865,11 +5869,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lowry@IdleP4
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 52a3cc051042e1a498f4fca99b3e1a75, type: 2}
     - target: {fileID: -4216859302048453862, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5940,6 +5939,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 52a3cc051042e1a498f4fca99b3e1a75, type: 2}
     - target: {fileID: 1651062367082650294, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6341,11 +6345,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lowry@IdleP2
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 52a3cc051042e1a498f4fca99b3e1a75, type: 2}
     - target: {fileID: -4216859302048453862, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6416,6 +6415,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 52a3cc051042e1a498f4fca99b3e1a75, type: 2}
     - target: {fileID: 1651062367082650294, guid: 551d1518193236b4d8d7a1ab44ddf8f5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
