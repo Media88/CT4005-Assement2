@@ -10,14 +10,6 @@ public class Coin : MonoBehaviour
 
     public ScoreScripts scoreScripts;
 
-    public GameObject endMenu;
-
-    public int scoreP1;
-    public int scoreP2;
-    public int scoreP3;
-    public int scoreP4;
-    public int scoreGoal = 5;
-
     public void Update()
     {
         this.gameObject.transform.Rotate(0, CoinRotateSpeed, 0);
@@ -41,7 +33,5 @@ public class Coin : MonoBehaviour
        {
             scoreScripts.P4Collision();
        }
-
-        
     }
 }
