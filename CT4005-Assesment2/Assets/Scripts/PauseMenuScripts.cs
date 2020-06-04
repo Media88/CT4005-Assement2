@@ -7,6 +7,7 @@ public class PauseMenuScripts : MonoBehaviour
 {
     public static bool PausedGame = false;
     public GameObject PauseMenu;
+    public GameObject EndMenu;
 
     void Update()
     {
@@ -43,10 +44,20 @@ public class PauseMenuScripts : MonoBehaviour
         SceneManager.LoadScene("MenuScene");
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        PausedGame = false;
+        Time.timeScale = 1f;
     }
     public void ExitGame()
     {
         Application.Quit();
         Debug.Log("User has quit the game");
+    }
+    public void EndGame()
+    {
+        EndMenu.gameObject.SetActive(true);
+        Time.timeScale = 0f;
+        PausedGame = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

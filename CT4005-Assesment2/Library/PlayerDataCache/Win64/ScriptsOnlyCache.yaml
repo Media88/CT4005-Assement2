@@ -13,13 +13,15 @@ ScriptsOnlyBuild:
     - Player1Movement
     - ScoreScripts
     - SetVolume
-    - endGame
+    - hideMenu
     - pg_SceneMeshRender
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -91,15 +93,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9544}
     - Class: 114
-      Script: {instanceID: 10506}
+      Script: {instanceID: 10508}
     - Class: 114
-      Script: {instanceID: 10598}
+      Script: {instanceID: 10600}
     - Class: 114
-      Script: {instanceID: 10744}
+      Script: {instanceID: 10748}
     - Class: 114
-      Script: {instanceID: 10776}
+      Script: {instanceID: 10780}
     - Class: 114
-      Script: {instanceID: 16442}
+      Script: {instanceID: 43138}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -121,6 +123,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     Assets/Scenes/MenuScene.unity:
     - Class: 1
@@ -164,13 +168,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9746}
     - Class: 114
-      Script: {instanceID: 9880}
+      Script: {instanceID: 9882}
     - Class: 114
-      Script: {instanceID: 10408}
+      Script: {instanceID: 10410}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10528}
+      Script: {instanceID: 10530}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -940,7 +944,7 @@ ScriptsOnlyBuild:
     className: ExitScript
   - hash:
       serializedVersion: 2
-      Hash: 61e222a6d004a9264ca19386f9b28313
+      Hash: 84bb941bed52b6fc11c7e12afd29133e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Coin
@@ -952,7 +956,7 @@ ScriptsOnlyBuild:
     className: SetVolume
   - hash:
       serializedVersion: 2
-      Hash: 16ad5080cd9d272bc3fa2b8433e44973
+      Hash: 542c7927004a37fe08279cf3511447ba
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScoreScripts
@@ -988,7 +992,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 7fb33bf5681fd9d4a816950cf7f7ea67
+      Hash: 6b72fbba64b732092da8a25971817143
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenuScripts
@@ -1018,10 +1022,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: cbd47028bbc10813b22f543689092c2e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: endGame
+    className: hideMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
