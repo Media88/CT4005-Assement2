@@ -18,10 +18,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -93,15 +91,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9544}
     - Class: 114
+      Script: {instanceID: 10140}
+    - Class: 114
       Script: {instanceID: 10508}
     - Class: 114
       Script: {instanceID: 10600}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10746}
     - Class: 114
-      Script: {instanceID: 10780}
-    - Class: 114
-      Script: {instanceID: 43138}
+      Script: {instanceID: 10778}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -168,7 +166,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9746}
     - Class: 114
-      Script: {instanceID: 9882}
+      Script: {instanceID: 9880}
     - Class: 114
       Script: {instanceID: 10410}
     - Class: 114
@@ -830,6 +828,12 @@ ScriptsOnlyBuild:
     className: pb_Renderable
   - hash:
       serializedVersion: 2
+      Hash: cbd47028bbc10813b22f543689092c2e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: hideMenu
+  - hash:
+      serializedVersion: 2
       Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1020,12 +1024,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: cbd47028bbc10813b22f543689092c2e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: hideMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
